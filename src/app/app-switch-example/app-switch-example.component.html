@@ -1,0 +1,9 @@
+<div [ngSwitch]="choice">
+    <div *ngSwitchCase="'1'">Option 1</div>
+    <div *ngSwitchCase="'2'">Option 2</div>
+    <div *ngSwitchCase="'3'">Option 3</div>
+    <div *ngSwitchDefault>Default Option</div>
+</div>
+
+<p>make your choice  <input type="text" [(ngModel)]="choice" /></p>
+<p>enter values like 1, 2, 3 or other</p>

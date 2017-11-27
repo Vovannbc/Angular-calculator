@@ -1,0 +1,21 @@
+<div class="calculator-wrapper">
+    <h3 class="center">{{title}}</h3>
+    <table>
+        <tr>
+            <td>
+                <select [(ngModel)]="selectedValue">
+                    <option *ngFor="let state of deliveryUSA" [ngValue]="state.price">{{state.title}}</option>
+                </select>
+            </td>
+            <td>{{selectedValue}}</td>
+        </tr>
+        <tr>
+            <td>Sea container - </td>
+            <td>{{deliverySea}} $</td>
+        </tr>
+
+    </table>
+
+</div>
+
+

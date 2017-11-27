@@ -1,0 +1,37 @@
+nav {
+    max-width: 1200px;
+    margin: 40px auto;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    transition: all 0.3s;
+    color: #5f5f5f;
+    height: 20px;
+}
+
+nav a.active {
+    border-radius: 3px;
+    padding: 2px 8px;
+    background-color: #c6c6c6;
+    color: #d46848;
+}
+
+aside {
+    width: 20%;
+}
+section {
+    width: 80%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
